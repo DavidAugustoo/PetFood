@@ -287,3 +287,54 @@ header {
     max-width: auto;
     margin: 0 auto;
 }
+
+
+
+/* Section promotion */
+
+.promotion-area {
+    display: flex;
+}
+
+.promotion-featured {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    margin-top: 60px;
+    margin-right: 130px;
+    max-width: 364px;
+}
+
+.promotion-featured a:hover{
+    color: #fbaf3e;
+}
+
+.promotion--img {
+    max-width: 300px;
+}
+
+.promotion-products {
+    flex: 1;
+}
+
+.promotion-products {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.promotion-products--item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 35  0px;
+}
+
+.promotion-products--item--image {
+    display: block;
+    margin: 0 auto;
+}
