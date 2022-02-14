@@ -1,0 +1,114 @@
+/* Pré-configurações */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --orange-color: #FF9A03;
+    --brown-color: #432A2A;
+    --text-light-color: #FFF;
+    --text-dark-color: #000;
+    --background-color: #FAFAFA;
+}   
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 18rem;
+    font-weight: 700;
+    color: var(--text-light-color);
+}
+
+h2 {
+    font-size: 16rem;
+    font-weight: 700;
+    color: var(--text-dark-color);
+}
+
+h3 {
+    font-size: 9rem;
+    font-weight: 600;
+    color: var(--orange-color);
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 9rem;
+    font-weight: 500;
+    color: var(--orange-color);
+}
+
+h5 {
+    font-size: 8rem;
+    font-weight: 400;
+    color: #494949;
+}
+
+a {
+    font-size: 9rem;
+    font-weight: 700;
+    color: var(--text-light-color);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+p {
+    font-size: 10rem;
+    font-weight: 400;
+    color: var(--text-dark-color);
+}
+
+.small-text {
+    font-size: 7rem;
+}
+
+.medium-text {
+    font-size: 12rem;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+li {
+    font-size: 10rem;
+}
+
+.text-light {
+    color: var(--text-light-color);
+}
+
+.orange-text {
+    color: var(--orange-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.8;
+}
+
+.button:hover {
+    background-color: #fbaf3e;
+}
