@@ -149,3 +149,44 @@ header {
     color: var(--orange-color);
 }
 
+
+
+/* Section Banner */
+
+#banner {
+    width: 100vw;
+    max-height: 500px;
+    background-color: var(--brown-color);
+    border-radius: 0px 0px 200px 0px;
+    position: absolute;
+    left: 0px;
+}
+
+.banner-area {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.banner--desc {
+    flex: 1;
+}
+
+.banner--desc--text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 492px;
+}
+
+.banner--desc--text .button {
+    margin-top: 32px;
+}
+   
+.banner--image {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
