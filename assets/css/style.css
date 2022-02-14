@@ -268,3 +268,22 @@ header {
 }
 
 
+
+/* Section brand */
+
+#brand {
+    padding: 100px 0px;
+}
+
+.brand-area {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brand-area--item {
+    max-width: auto;
+    margin: 0 auto;
+}
