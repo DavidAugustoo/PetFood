@@ -234,3 +234,37 @@ header {
     justify-content: start;
 }
 
+
+
+/* Section About */
+
+.about-area {
+    display: flex;
+}
+
+.about-area--image {
+    flex: 1;
+}
+
+.about-area--desc {
+    max-width: 492px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.about-area--desc--text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-area--list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px 20px;
+    gap: 10px;
+    list-style-image: url('/assets/images/bone.svg');
+}
+
+
