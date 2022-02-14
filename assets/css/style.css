@@ -338,3 +338,20 @@ header {
     display: block;
     margin: 0 auto;
 }
+
+
+
+/* Section banner discount */
+
+.banner-discount--area {
+    max-width: 100%;
+}
+
+.banner-discount--area--image-desktop {
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.banner-discount--area--image-mobile {
+    display: none;
+}
