@@ -355,3 +355,32 @@ header {
 .banner-discount--area--image-mobile {
     display: none;
 }
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--brown-color);
+    padding: 50px 0px;
+}
+
+.address-area {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    list-style: none;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.address--item {
+    display: flex;
+    max-width: 400px;
+    gap: 20px;
+    flex: 1;
+}
+
