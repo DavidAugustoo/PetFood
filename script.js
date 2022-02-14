@@ -14,3 +14,20 @@ menuMobile.addEventListener('click', () => {
     }
 
 });
+
+// Produtos
+
+const c = (el) => document.querySelector(el);
+const cs = (el) => document.querySelectorAll(el);
+
+productsJson.map((item) => {
+    let productItem = c('.models .products-card').cloneNode(true);
+
+    productItem.querySelector('.products-card--image img').src = item.img;
+    productItem.querySelector('.products-card--brand').innerHTML = item.brand;
+    productItem.querySelector('.products-card--name').innerHTML = item.name;
+    productItem.querySelector('.products-card--price').innerHTML = `R$ ${item.price}`;
+
+
+    c('.products-area').append(productItem);
+}); 
