@@ -112,3 +112,40 @@ li {
 .button:hover {
     background-color: #fbaf3e;
 }
+
+
+
+/* Header */
+
+header {
+    background-color: var(--brown-color);
+    width: 100vw;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0px;
+}
+
+.menu-area {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile-area {
+    display: none;
+    list-style: none; 
+}
+
+.menu--item a:hover {
+    color: var(--orange-color);
+}
+
