@@ -15,10 +15,10 @@
                 <nav>
                     <div class="menu-mobile"><img src="./assets/images/menu.svg"></div>
                     <ul class="menu-area">
-                        <li class="menu--item"><a href="./Principal.html">Início</a></li>
-                        <li class="menu--item"><a href="./Principal.html">Sobre</a></li>
-                        <li class="menu--item"><a href="./Produtos.html">Loja</a></li>
-                        <li class="menu--item"><a href="./Principal.html">Contato</a></li>      
+                        <li class="menu--item"><a href="./index.html">Início</a></li>
+                        <li class="menu--item"><a href="./index.html">Sobre</a></li>
+                        <li class="menu--item"><a href="./index.html">Loja</a></li>
+                        <li class="menu--item"><a href="./index.html">Contato</a></li>      
                     </ul>
                 </nav>
             </div>
@@ -50,17 +50,54 @@
 
         <section class="products">
             <div class="models">
-                    <a href="" class="products-card"">
-                        <div class="products-card--image"><img src=""></div>
-                            <p class="products-card--brand small-text">--</p>
-                            <h5 class="products-card--name text-dark bold-text">--</h5>
-                        <h3 class="products-card--price">R$ --</h3>
-                    </a>
+                <a href="" class="products-card">
+                    <div class="products-card--image"><img src=""></div>
+                        <p class="products-card--brand small-text">--</p>
+                        <h5 class="products-card--name text-dark bold-text">--</h5>
+                    <h3 class="products-card--price">R$ --</h3>
+                </a>
             </div>
-            <h2>Produtos recomendados </h2>
+            <h2>Produtos recomendados</h2>
             <div class="products-area"></div>
         </section>
     </main> 
+    <div class="products-modal">
+        <div class="products-modal--area">
+            <div class="products-modal--image">
+                <img src=""/>
+            </div>
+            <div class="products-modal--info">
+                <h1 class="orange-text">--</h1>
+                <p class="small-text">--</p>
+            
+                <h3>TAMANHO</h3>
+                <div class="products-modal--sizes">
+                    <div data-key="0" class="products-modal--size selected"><p class="bold-text">--</p></div>
+                    <div data-key="1" class="products-modal--size"><p class="bold-text">--</p></div>
+                    <div data-key="2" class="products-modal--size"><p class="bold-text">--</p></div>
+                </div>
+            
+                
+                <div>
+                    <h3>PREÇO</h3>
+                    <div class="products-modal--price">
+                        <h1 class="text-dark products-modal--actualPrice">--</h1>
+                        <div class="products-modal--qtarea">
+                            <button class="products-modal--qtmenos">-</button>
+                            <div class="products-modal--qt">1</div>
+                            <button class="products-modal--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="products-modal--buttons">
+                    <a href="#" class="button products-modal--button-add">Adicionar ao carinho</a>
+                    <a href="#" class="text-dark products-modal--button-close">Cancelar</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
     <script src="/products.js"></script>
     <script src="/script.js"></script>

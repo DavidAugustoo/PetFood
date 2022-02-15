@@ -413,12 +413,109 @@ footer {
 }
 
 .products-card--image img{
+    width: 165px;
+    height: 165px;
     margin: 0 auto;
     display: block;
+    transition: all 0.5s;
+}
+
+.products-card--image img:hover {
+    transform: scale(1.2);
 }
 
 .models {
     display: none   ;
+}
+
+.products-modal {
+    display: none;
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.products-modal--area {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 30px;
+    margin: 0 32px;
+}
+
+.products-modal--info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.products-modal--image {
+    flex: 1;
+}
+
+.products-modal--image img {
+    width: 100%;
+}
+
+.products-modal--sizes {
+    display: flex;
+    gap: 20px;
+}
+
+.products-modal--size {
+    background-color: #E6E6E6;
+    padding: 6px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products-modal--size.selected {
+    background-color: var(--orange-color);
+}
+
+.products-modal--buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.products-modal--price {
+    display:flex;
+    align-items:center;
+}
+.products-modal--actualPrice {
+    font-size: 18rem;
+    margin-right:30px;
+}
+.products-modal--qtarea {
+    display:inline-flex;
+    border: 2px solid #E6E6E6;
+    border-radius:10px;
+    height:50px;
+}
+.products-modal--qtarea button {
+    border:0;
+    background-color:transparent;
+    font-size: 13rem;
+    outline:0;
+    cursor:pointer;
+    padding:0px 15px;
+    color:var(--orange-color)
+}
+.products-modal--qt {
+    line-height: 50px;
+    font-size: 8rem;
+    font-weight: bold;
+    padding: 0px 5px;
+    color:var(--text-dark-color);
 }
 
 
@@ -456,6 +553,13 @@ footer {
 
     .products-area {
         grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .products-modal--area {
+        flex-direction: column;
     }
 }
 
@@ -583,4 +687,15 @@ footer {
     .products-area {
         grid-template-columns: repeat(1,1fr);
     }
+
+    .products-modal--buttons {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .products-modal {
+        align-items: flex-start;
+        overflow-y: auto;
+    }
+   
 } 
