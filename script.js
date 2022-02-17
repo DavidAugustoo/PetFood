@@ -28,7 +28,7 @@ const cs = (el) => document.querySelectorAll(el);
 productsJson.map((item, index) => {
     let productItem = c('.models .products-card').cloneNode(true);
 
-    productItem.setAttribute('data-key', index,);
+    productItem.setAttribute('data-key', index);
     productItem.querySelector('.products-card--image img').src = item.img;
     productItem.querySelector('.products-card--brand').innerHTML = item.brand;
     productItem.querySelector('.products-card--name').innerHTML = item.name;
@@ -142,7 +142,7 @@ c('.products-modal--button-add').addEventListener('click', (e) => {
     });
 
     if (key > -1) {
-        cart[key].qt += modalKey;
+        cart[key].qt += modalQt;
     } else {
         cart.push({
             identifier,
