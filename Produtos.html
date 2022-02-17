@@ -5,29 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ef2c46f17f.js" crossorigin="anonymous"></script>
     <title>PetFood</title>
 </head>
 <body>
     <header id="header">
         <div class="container">
             <div class="header-area">
-                <img src="./assets/images/logo.svg" alt="Logo PetFood">
+                <a href="./index.html"><img src="./assets/images/logo.svg" alt="Logo PetFood"></a>
                 <nav>
                     <div class="menu-mobile"><img src="./assets/images/menu.svg"></div>
+                    <li class="cart-mobile"><i class="fa-solid fa-cart-shopping"></i></li> 
                     <ul class="menu-area">
                         <li class="menu--item"><a href="./index.html">Início</a></li>
                         <li class="menu--item"><a href="./index.html">Sobre</a></li>
                         <li class="menu--item"><a href="./index.html">Loja</a></li>
-                        <li class="menu--item"><a href="./index.html">Contato</a></li>      
+                        <li class="menu--item"><a href="./index.html">Contato</a></li>
+                        <li class="menu--item"><i class="fa-solid fa-cart-shopping"></i></li>   
                     </ul>
                 </nav>
             </div>
-            <ul class="menu-mobile-area closed">
-                <li class="menu-mobile--item"><a href="#header">INÍCIO</a></li>
-                <li class="menu-mobile--item"><a href="#about">SOBRE</a></li>
-                <li class="menu-mobile--item"><a href="./Produtos.html">Loja</a></li>
-                <li class="menu-mobile--item"><a href="#footer">Contato</a></li>      
-            </ul>
+            <div> 
+                <ul class="menu-mobile-area closed">
+                    <li class="menu-mobile--item"><a href="#header">INÍCIO</a></li>
+                    <li class="menu-mobile--item"><a href="#about">SOBRE</a></li>
+                    <li class="menu-mobile--item"><a href="./Produtos.html">Loja</a></li>
+                    <li class="menu-mobile--item"><a href="#footer">Contato</a></li>      
+                </ul>
+            </div>
+            
+            <div class="cart-modal">
+                <div class="cart-product">
+                    <div class="cart-product--image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="cart-product--desc">
+                        <div class="cart-product--text">   
+                            <p class="products-cart--brand small-text">--</p>
+                            <h5 class="products-cart--name text-dark bold-text">--</h5>
+                            <h3 class="products-cart--price ">--</h3>
+                        </div>
+                        <div class="cart--qtarea">
+                            <button class="cart--qtmenos">-</button>
+                            <div class="cart--qt">1</div>
+                            <button class="cart--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-container closed">
+                <div class="cart-area">
+                    <div class="cart-product-area">
+
+                    </div>
+                    <div class="cart-info">
+                        <div class="cart-info--total">
+                            <p class="bold-text">Total</p>
+                            <p class="cart-info--price bold-text">R$ 0</p>
+                        </div>
+                        <h4 class="cart-info--frete"></h4>
+                        <a href="#" class="button cart-info--butom">Finalizar Compra</a>
+                    </div> 
+                </div>
+            </div>
+            
     </header>
 
     <main class="container">
@@ -38,7 +80,7 @@
                         <div class="banner--desc--text">
                             <h1>Tudo o que seu pet precisa a PetFood tem!</h1>
                             <p class="text-light">Seja para comprar um petisco ou uma roupinha estilosa... basta você escolher o local de entrega, selecionar como deseja pagar e pronto!</p>
-                            <a href="#" class="button">Conferir produtos</a>
+                            <a href="#" class="button">Conferir produtos </a>
                         </div>
                     </div>
                     <div class="banner--image">
@@ -54,7 +96,7 @@
                     <div class="products-card--image"><img src=""></div>
                         <p class="products-card--brand small-text">--</p>
                         <h5 class="products-card--name text-dark bold-text">--</h5>
-                    <h3 class="products-card--price">R$ --</h3>
+                    <h3 class="products-card--price ">R$ --</h3>
                 </a>
             </div>
             <h2>Produtos recomendados</h2>
@@ -99,6 +141,7 @@
         </div>
     </div>
 
+    
     <script src="/products.js"></script>
     <script src="/script.js"></script>
     
