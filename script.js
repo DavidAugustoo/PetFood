@@ -95,6 +95,7 @@ c('.products-modal--button-close').addEventListener('click', (e) => {
     closeModal();
 });
 
+
 function closeModal() {
     c('.products-modal').style.opacity = '0';
 
