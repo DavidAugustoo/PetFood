@@ -9,7 +9,7 @@
 PetFood é um e-comerce totalmente voltado para o ramo alimenticio de animais de estimação
 </p>
 <p align="center">
-<img src="assets/cell.gif" align="center" />
+<img src="/assets/images/video.gif" align="center" style="border-radius: 10px" />
 </p>
 
 ## Tecnologias 🚀 
