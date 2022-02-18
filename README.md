@@ -6,7 +6,7 @@
   <a href="#funcionalidades-">Funcionalidades</a>
 </p>
 <p align="center"> 
-PetFood é um e-comerce totalmente voltado para o ramo alimenticio de animais de estimação
+PetFood é um e-comerce totalmente voltado para o ramo de animais de estimação
 </p>
 <p align="center">
 <img src="/assets/images/video.gif" align="center" style="border-radius: 10px" />
@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ### Descrição
-PetFood é um e-commerce totalmente voltado para o ramo alimenticio de animais de estimação.
+Petfood é um site de comércio eletrônico focado em produtos para animais. Fornecemos linhas de produtos especializados, tais como cozinha orgânica, ração natural para grupos em lotes pequenos e uma seleção ampla de guloseimas para cães e gatos.
 
 
 ### Objetivo
