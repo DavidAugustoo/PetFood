@@ -9,7 +9,7 @@
 PetFood é um e-comerce totalmente voltado para o ramo alimenticio de animais de estimação
 </p>
 <p align="center">
-<img src="/assets/images/video.gif" align="center" style="border-radius: 10px" width="1000px" />
+<img src="/assets/images/video.gif" align="center" style="border-radius: 10px" />
 </p>
 
 ## Tecnologias 🚀 
@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ### Descrição
-PetFood é um e-comerce totalmente voltado para o ramo alimenticio de animais de estimação.
+PetFood é um e-commerce totalmente voltado para o ramo alimenticio de animais de estimação.
 
 
 ### Objetivo
